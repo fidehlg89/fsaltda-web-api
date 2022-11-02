@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.0] - 24-sep-2021
+## [0.1.0] - 1-jul-2021
 ### Added
 - Typescript
 - SQL coonection
