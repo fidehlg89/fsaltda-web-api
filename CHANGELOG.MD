@@ -9,6 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - 1-jul-2021
 ### Added
 - Typescript
-- SQL coonection
-- add Morgan http request
+- SQL connection
+- add Morgan http for request
 - Routes
