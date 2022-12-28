@@ -1,10 +1,11 @@
 {
-  "name": "fsaltda-web-api",
+  "name": "node_ts-members-registry-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "sequelize": "^6.28.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.12",
@@ -23,13 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fidehlg89/fsaltda-web-api.git"
+    "url": "git+https://github.com/fidehlg89/node_ts-members-registry-api"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fidehlg89/fsaltda-web-api/issues"
+    "url": "https://github.com/fidehlg89/node_ts-members-registry-api/issues"
   },
-  "homepage": "https://github.com/fidehlg89/fsaltda-web-api#readme"
+  "homepage": "https://github.com/fidehlg89/node_ts-members-registry-api#readme"
 }

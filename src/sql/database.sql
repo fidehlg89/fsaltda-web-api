@@ -1,4 +1,4 @@
-CREATE DATABASE fsaldta_web_api;
+CREATE DATABASE node_ts-members-registry-api;
 
 CREATE TABLE members(
     id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,

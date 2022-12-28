@@ -18,9 +18,9 @@ export async function getMember(req:Request, res:Response):Promise<Response>{
 export async function createMember(req:Request, res:Response){
     const newMember:Member=req.body;
     const conn=await connect();
-    await conn.query('INSERT INTO members SET ?', [newMember]);
+    await conn.query('INSERT INTO members set ?', [newMember]);
     return res.json({
-        message:'Member created' 
+        message:'Member created'
     });
 };
 
@@ -30,7 +30,8 @@ export async function deleteMember(req:Request, res:Response){
     const conn=await connect();
     const member=await conn.query('DELETE from members where id = ?', [id]);
     return res.json({
-        message:'Member deleted' 
+        message:'Member deleted',
+        data: member
     });
 };
 
